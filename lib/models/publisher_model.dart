@@ -11,7 +11,7 @@ abstract class PublisherModel with _$PublisherModel {
   factory PublisherModel.fromJson(Map<String, dynamic> json) =>
       _$PublisherModelFromJson(json);
 }
-
+//TODO - add to model
 //types of works they accept
 //description/note
 //how often they publish?

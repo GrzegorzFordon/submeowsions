@@ -7,16 +7,12 @@ import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:material_symbols_icons/symbols.dart';
-import 'package:path/path.dart';
-import 'package:submeowsions/data/database.dart';
 import 'package:submeowsions/models/publisher_model.dart';
 import 'package:submeowsions/models/work_model.dart';
-import 'package:submeowsions/providers/recent_searches_provider.dart';
 import 'package:submeowsions/providers/repository_providers/publisher_repo_provider.dart';
 import 'package:submeowsions/providers/repository_providers/work_repo_provider.dart';
 import 'package:submeowsions/providers/search_types_provider.dart';
 import 'package:submeowsions/providers/theme_provider.dart';
-import 'package:submeowsions/widgets/theme_variant_picker_widget.dart';
 
 class SearchScreenMain extends HookConsumerWidget {
   const SearchScreenMain({super.key});

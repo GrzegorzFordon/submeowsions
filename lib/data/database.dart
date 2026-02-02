@@ -23,7 +23,6 @@ class AppDatabase extends _$AppDatabase {
     return driftDatabase(
       name: 'database',
       native: DriftNativeOptions(
-        // databaseDirectory: getApplicationSupportDirectory,
         databasePath: () async {
           final dbFolder = await getApplicationDocumentsDirectory();
           final file = File(p.join(dbFolder.path,'database.db'));

@@ -32,11 +32,6 @@ class WorkRepo implements IWorkRepo {
     return db.select(db.worksTable).watch();
   }
 
-  // @override
-  // Future<bool> update(WorkModel model) {
-  //   return db.update(db.worksTable).replace(WorksTableCompanion(workType: Value(model.type), title: Value(model.title)));
-  // }
-
   @override
   Future<bool> update(WorkEntry entry) {
     return db.update(db.worksTable).replace(entry);
