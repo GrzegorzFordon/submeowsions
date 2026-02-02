@@ -1,6 +1,5 @@
 import 'package:go_router/go_router.dart';
 import 'package:submeowsions/screens/main_screen.dart';
-import 'package:submeowsions/screens/stats/db_debug_screen.dart';
 import 'package:submeowsions/screens/list/list_screen_main.dart';
 import 'package:submeowsions/screens/search/search_screen_main.dart';
 import 'package:submeowsions/screens/stats/stats_screen_main.dart';

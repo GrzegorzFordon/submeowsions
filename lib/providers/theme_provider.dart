@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:submeowsions/models/theme_model.dart';
 
 part 'theme_provider.g.dart';
 

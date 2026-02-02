@@ -1,5 +1,4 @@
 import 'package:submeowsions/data/database.dart';
-import 'package:submeowsions/models/comment_model.dart';
 
 abstract class ICommentRepo {
   Future<bool> get();

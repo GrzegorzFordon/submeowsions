@@ -2,7 +2,6 @@ import 'package:custom_mouse_cursor/custom_mouse_cursor.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:pie_menu/pie_menu.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:submeowsions/providers/theme_provider.dart';
 import 'package:submeowsions/router.dart';
